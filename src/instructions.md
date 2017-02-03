@@ -6,6 +6,16 @@ For each step below, you should only have to write a single command on the comma
 [...]/git-and-github-basics-assessment/src
 ```
 
+## Important Notes
+
+The tests that get run at the end of the sequence of commands requires:
+
+* That your `history` lists your historical commands in chronological order; that is, your latest command is on the bottom.
+
+* That you to only type in one command per line in the exact order they're presented.
+
+The best way to accomplish the first point is to use `bash` or `zsh`. Alternatively, once you have a `my-instructions` file, feel free to edit the file directly to get the tests to pass.
+
 ### Steps
 
 0. _In a single command_, go back up two directories. You should be outside of the assessment folder.
@@ -36,7 +46,7 @@ For each step below, you should only have to write a single command on the comma
 
 0. _In a single command_, navigate back to the `src/` folder inside of this assessment.
 
-0. Run the following command: `history | tail -14 > my-instructions`
+0. Run the following command: `history | tail -n 14 > my-instructions`
 
 0. Navigate up a directory.
 
