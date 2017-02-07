@@ -92,7 +92,7 @@ describe('cli-commands', () => {
   })
   it('go back to this folder', () => {
     const cmd = instructions[13]
-    const re = /cd.*\.\.\/git\-and\-github\-basics\-assessment\/src/g
+    const re = /cd.*\.\.\/.*git\-and\-github\-basics\-assessment\/src/g
 
     assert.isOk(cmd.match(re))
   })
