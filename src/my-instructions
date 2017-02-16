@@ -1,0 +1,16 @@
+  795  cd ../../../
+  796  mkdir git-and-github
+  797  cd git-and-github
+  798  git init
+  799  touch readme.md ignore_me.txt .gitignore
+  800  echo ignore_me.txt > .gitignore
+  801  git status
+  802  git add .gitignore
+  803  git commit -m "here is gitignore"
+  804  git add .
+  805  git commit -m "here are the remaining files"
+  806  git remote add origin https://github.com/needMoreJava/GitPracticeRepository.git
+  807  git push -u origin master
+  807  cd ../g48_git-and-github-basics-assessment/src
+  808  history | tail -n 14 > my-instructions
+  809  cd ..

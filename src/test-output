@@ -1,0 +1,7 @@
+
+> cli@1.0.0 test /Users/ianharvey/galvanize/assessments/g48_git-and-github-basics-assessment
+> mocha --reporter min
+
+[2J[1;3H
+  15 passing (7ms)
+
